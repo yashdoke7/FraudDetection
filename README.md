@@ -107,18 +107,6 @@ Due to file size, datasets are **not included**. Download directly from [Kaggle]
    python main.py
    ```
 
-## 🖼️ How to Add/Edit Visualizations
-
-- All key plots (like those above) are in the `/images` folder and referenced in this README.
-- To add your own visualization (e.g., F1/Recall/Precision bar graph), save your figure using matplotlib:
-  ```python
-  plt.savefig('images/your_plot.png')
-  ```
-  And include it like:
-  ```markdown
-  ![Description](images/your_plot.png)
-  ```
-- For image edits, use Python (matplotlib/plt.annotate), or tools like Canva, PowerPoint, or Photopea for highlights.
 
 ## 📄 License
 
