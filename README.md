@@ -18,19 +18,19 @@ Fraud Detection System is a machine learning project built to identify fraudulen
 
 Most transactions are genuine, with fraud cases extremely rare:
 
-<img width="724" height="720" alt="Class Distribution" src="https://github.com/user-attachments/assets/156e3e83-bddf-4617-a46c-d2c378908132" />
+<img width="500" alt="Class Distribution" src="https://github.com/user-attachments/assets/156e3e83-bddf-4617-a46c-d2c378908132" />
 
 ### Confusion Matrix
 
-<img width="863" height="687" alt="Confusion Matric" src="https://github.com/user-attachments/assets/4598707c-2d12-4b82-9d18-86cf96b506ac" />
+<img width="500" alt="Confusion Matric" src="https://github.com/user-attachments/assets/4598707c-2d12-4b82-9d18-86cf96b506ac" />
 
 ### F1 Score vs. Threshold
 
-<img width="901" height="676" alt="F1 Score vs Threshold" src="https://github.com/user-attachments/assets/dc3886df-4658-46ed-919a-40be24b43d29" />
+<img width="500" alt="F1 Score vs Threshold" src="https://github.com/user-attachments/assets/dc3886df-4658-46ed-919a-40be24b43d29" />
 
 ### Log Loss Over Epochs
 
-<img width="891" height="677" alt="Log Over Epochs" src="https://github.com/user-attachments/assets/21f7321e-acd1-4b94-ae90-19d446e9c184" />
+<img width="500" alt="Log Over Epochs" src="https://github.com/user-attachments/assets/21f7321e-acd1-4b94-ae90-19d446e9c184" />
 
 ### ⚖️ Precision-Recall Tradeoff
 
@@ -40,15 +40,15 @@ Most transactions are genuine, with fraud cases extremely rare:
 * **Low precision, high recall:** Safer approach—flagging more transactions as suspicious is preferable to missing a fraud.
 * **Metrics visualization:**
 
-<img width="1208" height="733" alt="image" src="https://github.com/user-attachments/assets/3c292010-36d4-4511-8e47-fc2ec10054fa" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/3c292010-36d4-4511-8e47-fc2ec10054fa" />
 
 ---
 
 ### Map for tracking fraud transactions 
 
-<img width="2499" height="1265" alt="image" src="https://github.com/user-attachments/assets/b73dc508-89b2-4163-ac63-6cbb99944160" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/b73dc508-89b2-4163-ac63-6cbb99944160" />
 
-<img width="2499" height="1257" alt="image" src="https://github.com/user-attachments/assets/cf21678d-0678-472f-9058-9b2bdb33a547" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/cf21678d-0678-472f-9058-9b2bdb33a547" />
 
 
 ---
