@@ -46,9 +46,9 @@ Most transactions are genuine, with fraud cases extremely rare:
 
 ### Map for Tracking Fraud Transactions 
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/b73dc508-89b2-4163-ac63-6cbb99944160" />
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/b73dc508-89b2-4163-ac63-6cbb99944160" />
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/cf21678d-0678-472f-9058-9b2bdb33a547" />
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/cf21678d-0678-472f-9058-9b2bdb33a547" />
 
 
 ---
