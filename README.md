@@ -132,5 +132,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 Questions? Suggestions? Please open an issue or reach out via my [GitHub profile](https://github.com/yashdoke7).
 
 ---
-
-Do you want me to also create a **screenshot mockup** (map with fraud markers/heatmap) that you can add to the README visuals, so it looks more complete?
