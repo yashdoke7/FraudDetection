@@ -10,12 +10,9 @@ body, html {
 }
 
 .container {
-    display: flex;
-    flex-direction: column; 
-    height: 100vh; 
-    justify-content: flex-start; 
-    width: 100%;
-    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
 }
 
 h1 {
@@ -25,28 +22,34 @@ h1 {
     margin-bottom: 3px;
 }
 
-
-#plotBtn, #viewBtn {
-    background-color: #4CAF50; 
-    color: white; 
-    padding: 15px 32px; 
-    font-size: 16px; 
-    border: none; 
-    border-radius: 8px; 
+.button-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin: 20px 0;
+    padding: 0;
+}
+#plotBtn, #viewBtn, .fraudLink {
+    display: inline-block;
+    flex-grow: 0;
+    margin: 0;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
-    transition: all 0.3s ease; 
-    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+#plotBtn:hover, #viewBtn:hover, .fraudLink:hover {
+    background-color: #45a049;
+    transform: scale(1.02);
 }
 
-#plotBtn:hover, #viewBtn:hover{
-    background-color: #45a049; 
-    transform: scale(1.02); 
-}
-
-#plotBtn:focus, #viewBtn:focus{
-    outline: none; 
-    box-shadow: 0 0 10px rgba(72, 177, 82, 0.8); 
-}
 
 .fraudLink {
     background-color: #4CAF50; 

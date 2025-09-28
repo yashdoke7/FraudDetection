@@ -3,12 +3,12 @@ from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 
 ms_model = XGBClassifier()
-ms_model.load_model(r"C:\Users\Yash\Desktop\CS\College\Projects\FraudDetection\xgboost_model_2.json")  # Path to your JSON file
+ms_model.load_model(r"C:\Users\Yash\Desktop\CS\Projects\FraudDetection\xgboost_model_2.json")  # Path to your JSON file
 
 
-fraud_train_df = pd.read_csv(r"C:\Users\Yash\Desktop\CS\College\Projects\FraudDetection\CSV\FraudTrain.csv")
-fraud_test_df = pd.read_csv(r"C:\Users\Yash\Desktop\CS\College\Projects\FraudDetection\CSV\FraudTest.csv")
-mostly_synthetic = pd.read_csv(r"C:\Users\Yash\Desktop\CS\College\Projects\FraudDetection\CSV\synthetic_data.csv")
+fraud_train_df = pd.read_csv(r"C:\Users\Yash\Desktop\CS\Projects\FraudDetection\CSV\FraudTrain.csv")
+fraud_test_df = pd.read_csv(r"C:\Users\Yash\Desktop\CS\Projects\FraudDetection\CSV\FraudTest.csv")
+mostly_synthetic = pd.read_csv(r"C:\Users\Yash\Desktop\CS\Projects\FraudDetection\CSV\synthetic_data.csv")
 
 
 fraud_train_df.drop(["trans_date_trans_time","first","last","dob","cc_num","gender","street","city","state","zip","lat","long","city_pop","trans_num","merch_lat","merch_long","unix_time"], axis=1, inplace = True)
